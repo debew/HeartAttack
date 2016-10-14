@@ -1,0 +1,232 @@
+﻿@import url("reset.css");
+
+body {
+	background-image:url(imagens/texturas/textura1.png);
+	margin:0px;
+}
+h1 {
+	text-align:center;
+	font-family: Arial;
+	font-size: 30px;
+	color:#FFFFFF;
+	padding-top: 8px;
+}
+
+h2 {
+	text-align:center;
+	font-family: Arial;
+	font-size: 30px;
+	color:#FFFFFF;
+	padding-top: 8px;
+	padding-bottom:10px;
+}
+
+#superior,#navegação{
+	background-color:#8B1A1A;	
+	height:50px;
+	width:100%;
+}
+
+#cadastrar, #entrar {
+	position:absolute;
+	right:120px;
+	top:8px;
+	padding:5px;
+	width:100px;
+	background-color:#8B1A1A;
+	border:solid #FFFFFF;
+	color:#FFFFFF;
+}
+
+#cadastrar {
+	margin-right:120px;
+}
+
+
+#navegação {
+	display:block;
+	background-color:#1C1C1C;
+}
+
+#home {
+	color:#FF0000;
+}
+#login {
+	color:#FF8C00;
+}
+#cadastro {
+	color:#53868B;
+}
+#navegação ul{
+	text-align:center;
+	padding:18px 0px 10px 0px;
+	list-style:none;
+}
+
+#navegação ul li{
+	display:inline;
+}
+
+#navegação ul li a {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family:Arial;
+	padding: 15px;
+	font-size: 16px;
+}
+
+#navegação ul li a:hover {
+	background-color:#363636;
+	color:#FFFFFF;
+	text-bottom:solid #228B22;
+	transition:0.3s ease-in;
+}
+
+#menu-login {
+	width:300px;
+	height:200px;
+	background-color:#1C1C1C;
+	float: right;
+	position: absolute;
+	right:250px;
+	margin-top:20px;
+	border: none;
+   	font-family: arial;
+   	padding-top: 10px;
+   	color: #CFCFCF;
+}
+
+.form1 {
+   outline: none;
+   border: none;
+   width: 80%;
+   padding: 14px 10px;
+   font-weight: 300;
+   font-size: 15px;
+   margin: 10px;
+   background: #080808;
+   text-align: left;
+   font-family: arial;
+   opacity: 0.7;
+   color:#CFCFCF;
+
+}
+
+.button1 {
+	background-color: #080808;
+    border: none;
+    color: #9c9c9c;
+    padding: 5px 0;
+    width: 60%;
+    margin:auto;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.button1:hover {
+    background: #8B1A1A;
+    color:#FFFFFF;
+}
+
+#avaliar{
+	width:25%;
+	height:auto;
+	margin:auto;
+	background-image:url(imagens/texturas/textura1.png);	
+}
+
+#avaliar h2 {
+	font-size: 24px;
+	font-weight: 600;
+	padding-top:20px;
+	text-align:center;
+}
+
+#avaliar input, #avaliar textarea {
+   border: none;
+   color: #9c9c9c;
+   width: 90%;
+   margin:auto;
+   padding: 14px 10px;
+   background: #080808;
+   opacity: 0.7;
+   margin: 10px 0px 0px 7px;
+}
+
+#avaliar textarea {
+	margin: 10px 0px 0px 7px;
+
+}
+
+#avaliar #enviar {
+	background-color: #080808;
+	outline: none;
+    border: none;
+    color: #9c9c9c;
+    padding: 8px 0;
+    width: 30%;
+    margin: 10px 75px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+#avaliar #enviar:hover {
+	background: #8B1A1A;
+    color:#FFFFFF;
+}
+
+#text {
+	font-size: 15px;
+	color: #9c9c9c;
+	font-family: arial;
+	padding:20px;
+}
+
+#social-medias {
+	width: 100%;
+	height:auto;
+	background-color:#8B1A1A; 
+}
+
+#social-medias h3 {
+	background-color:#A52A2A;
+	font-size:25px;
+	color:#FFFAFA;
+	text-align: center;
+	padding: 10px;
+	font-family: arial;
+	margin:auto;
+}
+
+.social {
+	width:50px;
+	height:50px;
+	padding:10px;
+}
+
+#copyright {
+	background-image:url(imagens/texturas/textura1.png);	
+	height:50px;
+	width:100%;
+}
+
+
+#copyright a {
+	text-decoration: none;
+}
+
+#copyright p {
+	color:#DCDCDC;
+	text-align: center;
+	padding-top: 15px;
+	font-size:15px;
+	font-family: arial;
+}
+
+#ederson {
+	color:#53868B;
+}
