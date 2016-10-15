@@ -10,7 +10,9 @@ function validarSenha(form){
 
 
 jQuery(function($){
+
 	$("#cpf").mask("999.999.999-99",{placeholder:" "});
-	$("#fone").mask("(999) 99999-9999",{placeholder:" "});
+	$("#fone").mask("(99) 9999-9999",{placeholder:" "});
 	$("#data").mask("99/99/9999",{placeholder:" "});
+
 });

@@ -51,7 +51,9 @@
 
 		<!-- Javascripts Principais -->
 		<!-- Sempre Abaixo dos Restantes -->
+		<script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
 		<script src="js/jscripts.js"></script>
+		<script src="js/script.js"></script>
 
 </body>
 </html>
