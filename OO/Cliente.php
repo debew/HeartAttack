@@ -37,10 +37,10 @@ class Cliente
         return $stmt->fetchAll(\PDO::FETCH_ASSOC);
     }
 
-    protected function inserir()
+    public function inserir()
     {
         //query para inserção dos dados
-        $query = "Insert into cadastro(nome, email, login, senha, cpf, fone, dat) VALUES(:nome, :email, :login, :senha, :cpf, :fone, :dat)";
+        $query = "Insert into cadastro(nome, email, login, senha, cpf, fone, dat) VALUES(:nome, :email, :login, :senha, :cpf, :fone, str_to_date(:dat, '%d/%m/%Y'))";
 
         //inserção dos dados
         $stmt = $this->conn->prepare($query);
