@@ -39,8 +39,10 @@ class Cliente
 
     public function inserir()
     {
+
+        $tipo = 2;
         //query para inserção dos dados
-        $query = "Insert into cadastro(nome, email, login, senha, cpf, fone, dat) VALUES(:nome, :email, :login, :senha, :cpf, :fone, str_to_date(:dat, '%d/%m/%Y'))";
+        $query = "Insert into cadastro(nome, email, login, senha, cpf, fone, dat, tipo) VALUES(:nome, :email, :login, :senha, :cpf, :fone, str_to_date(:dat, '%d/%m/%Y'), '$tipo')";
 
         //inserção dos dados
         $stmt = $this->conn->prepare($query);

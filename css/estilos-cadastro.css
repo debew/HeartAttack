@@ -78,7 +78,7 @@ h2 {
 #navegação ul li a:hover {
 	background-color:#363636;
 	color:#FFFFFF;
-	text-bottom:solid #228B22;
+	border-bottom:solid #228B22;
 	transition:0.3s ease-in;
 }
 
@@ -170,7 +170,7 @@ h2 {
 	margin-top: -10px;
 	font-weight: 800;
 }
-#area-cadastro #enviar {
+#area-cadastro #enviar #confirmCad {
 	background-color: #080808;
 	outline: none;
     border: none;

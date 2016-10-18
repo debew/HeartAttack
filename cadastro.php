@@ -23,24 +23,24 @@
 						<input type="submit" id="enviar" value="Enviar" />
 				
 				</form>
-				<?php
-					if($_POST){
-						require_once "OO/conexao.php";
-						require_once "OO/Cliente.php";
+					<?php
+						if($_POST){
+							require_once "OO/conexao.php";
+							require_once "OO/Cliente.php";
 
-						$cliente = new Cliente($conn);
-						$cliente->setNome($_POST['nome'])
-								->setEmail($_POST['email'])
-								->setLogin($_POST['login'])
-								->setSenha($_POST['senha'])
-								->setCpf($_POST['cpf'])
-								->setFone($_POST['fone'])
-								->setDat($_POST['data']);
+							$cliente = new Cliente($conn);
+							$cliente->setNome($_POST['nome'])
+									->setEmail($_POST['email'])
+									->setLogin($_POST['login'])
+									->setSenha($_POST['senha'])
+									->setCpf($_POST['cpf'])
+									->setFone($_POST['fone'])
+									->setDat($_POST['data']);
 
-						$resultado = $cliente->inserir();
-						echo $resultado;
-					}
-				?>
+							$resultado = $cliente->inserir();
+							echo "<input type='text' value='{$resultado}' id='confirmCad' />";
+						}
+					?>
 			</section>
 </div>
 <?php
